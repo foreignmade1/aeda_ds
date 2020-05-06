@@ -1,9 +1,8 @@
 class EmptyListException(Exception):
-    pass
-
+    raise Exception ("Empty list")
 class InvalidPositionException(Exception):
-    pass
+    raise Exception ("Invalid position")
 
 class NoSuchElementException(Exception):
-    pass
+    raise Exception ("No such element")
     
